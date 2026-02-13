@@ -179,7 +179,7 @@ const animationTimeline = () => {
         opacity: 1,
         y: -1000,
       },
-      0.3
+      0.5
     )
     .from(
       ".girl-dp",
