@@ -250,7 +250,7 @@ const animationTimeline = () => {
       },
       0.3
     )
-    .add("hold", "+=8")
+    .to({}, {duration: 10})
     .to(".six", 0.5, {
       opacity: 0,
       y: 30,
