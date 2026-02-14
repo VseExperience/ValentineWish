@@ -181,6 +181,7 @@ const animationTimeline = () => {
       },
       0.5
     )
+    .add("hold", "+=7")
     .from(
       ".girl-dp",
       0.5,
